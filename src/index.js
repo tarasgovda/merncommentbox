@@ -1,8 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-
+//index.js
+import React from ‘react’;
+import ReactDOM from ‘react-dom’;
+import CommentBox from ‘./CommentBox’;
 ReactDOM.render(
-  <App />,
-  document.getElementById('root')
+ <CommentBox />,
+ document.getElementById(‘root’)
 );
